@@ -1,0 +1,30 @@
+{
+  "name": "understanding-ts",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "@types/lodash": "^4.17.15",
+    "axios": "^1.7.9",
+    "class-transformer": "^0.5.1",
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.2.2"
+  }
+}
